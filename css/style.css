@@ -1,0 +1,26 @@
+.wrapper {
+    text-align: center;
+}
+
+.img_ded {
+    height: 500px;
+    animation: runleft 5s ease 0s backwards infinite alternate;
+}
+
+@keyframes runleft {
+    0% {
+        transform: translateX(-65vw);
+    }
+
+    30% {
+        transform: translateX(-35vw);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.2) translateX(-30vw);
+    }
+
+    100% {
+        transform: translateX(0vw);
+    }
+}
